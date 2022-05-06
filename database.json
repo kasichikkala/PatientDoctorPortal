@@ -1,0 +1,106 @@
+{
+  "doctors": [
+    {
+      "patients": [
+        "spencershay2005"
+      ],
+      "nurses": [],
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "johndoe01011990",
+      "password": "password",
+      "phone": "123-456-7890",
+      "birthday": "01/01/1990",
+      "messages": [
+        {
+          "sender": "spencershay2005",
+          "recipient": "johndoe01011990",
+          "subject": "test",
+          "message": "testing"
+        },
+        {
+          "sender": "spencershay2005",
+          "recipient": "johndoe01011990",
+          "subject": "go",
+          "message": "fuck"
+        },
+        {
+          "sender": "spencershay2005",
+          "recipient": "johndoe01011990",
+          "subject": "",
+          "message": "hello?"
+        },
+        {
+          "sender": "spencershay2005",
+          "recipient": "johndoe01011990",
+          "subject": "",
+          "message": "fuck mylife"
+        }
+      ]
+    }
+  ],
+  "nurses": [
+    {
+      "patients": [
+        "robertsmith03032000"
+      ],
+      "doctor": "johndoe01011990",
+      "firstName": "Jane",
+      "lastName": "William",
+      "username": "janewilliam2000",
+      "password": "password",
+      "phone": "123-456-7890",
+      "birthday": "03/01/2000",
+      "messages": [
+        {
+          "sender": "spencershay2005",
+          "recipient": "janewilliam2000",
+          "subject": "test",
+          "message": "testing"
+        }
+      ]
+    }
+  ],
+  "patients": [
+    {
+      "doctor": "johndoe01011990",
+      "prescriptions": [
+        {
+          "prescName": "deeznuts",
+          "expDate": "4/20",
+          "quantity": 69
+        }
+      ],
+      "firstName": "Spencer",
+      "lastName": "Shay",
+      "username": "spencershay2005",
+      "password": "password",
+      "phone": "123-456-7890",
+      "birthday": "11/20/2005"
+    },
+    {
+      "firstName": "Anthony",
+      "lastName": "Delphy",
+      "username": "AnthonyDelphy01012001",
+      "password": "password",
+      "birthday": "01/01/2001"
+    },
+    {
+      "firstName": "Diego",
+      "lastName": "Escalante",
+      "username": "DiegoEscalante010101",
+      "password": "diego",
+      "birthday": "01/01/01"
+    }
+  ],
+  "appointments": [
+    {
+      "date": "11/25/2021",
+      "time": "12:00",
+      "patientUsername": "spencershay2005",
+      "doctorUsername": "johndoe01011990",
+      "temperature": 0.0,
+      "upcoming": true
+    }
+  ]
+}
